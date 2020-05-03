@@ -106,3 +106,7 @@ SELECT l_name,count(l_name) AS total_named
 FROM employees 
 GROUP BY l_name
 ORDER BY COUNT(l_name) DESC;
+
+SELECT * 
+FROM employees 
+WHERE emp_id=499942;
